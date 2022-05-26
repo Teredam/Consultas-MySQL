@@ -1,0 +1,41 @@
+1 -- Lista el nombre de todos los productos que hay en la mesa producto.
+2 -- Lista los nombres y los precios de todos los productos de la mesa producto.
+3 -- Lista todas las columnas de la tabla producto.
+4 -- Lista el nombre de los productos, el precio en euros y el precio en dólares estadounidenses (USD).
+5 -- Lista el nombre de los productos, el precio en euros y el precio en dólares estadounidenses (USD). Utiliza los siguientes sobrenombre para las columnas: nombre de producto, euros, dólares.
+6 -- Lista los nombres y los precios de todos los productos de la mesa producto, convirtiendo los nombres a mayúscula.
+7 -- Lista los nombres y los precios de todos los productos de la mesa producto, convirtiendo los nombres a minúscula.
+8 -- Lista el nombre de todos los fabricantes en una columna, y en otra columna obtenga en mayúsculas los dos primeros caracteres del nombre del fabricante.
+9 -- Lista los nombres y los precios de todos los productos de la mesa producto, redondeando el valor del precio.
+10 -- Lista los nombres y precios de todos los productos de la tabla producto, truncando el valor del precio para mostrarlo sin ninguna cifra decimal.
+11 -- Lista el código de los fabricantes que tienen productos en la mesa producto.
+12 -- Lista el código de los fabricantes que tienen productos en la mesa producto, eliminando los códigos que aparecen repetidos.
+13 -- Lista los nombres de los fabricantes ordenados de forma ascendente.
+14 -- Lista los nombres de los fabricantes ordenados de forma descendente.
+15 -- Lista los nombres de los productos ordenados en primer lugar por el nombre de forma ascendente y en segundo lugar por el precio de forma descendente.
+16 -- Devuelve una lista con las 5 primeras filas de la mesa fabricante.
+17 -- Devuelve una lista con 2 filas a partir de la cuarta fila de la mesa fabricante. La cuarta fila también debe incluirse en la respuesta.
+18 -- Lista el nombre y precio del producto más barato. (Utilice solamente las cláusulas ORDER BY y LIMIT). NOTA: Aquí no podría usar MIN(precio), necesitaría GROUP BY
+19 -- Lista el nombre y precio del producto más caro. (Utilice solamente las cláusulas ORDER BY y LIMIT). NOTA: Aquí no podría usar MAX(precio), necesitaría GROUP BY.
+20 -- Lista el nombre de todos los productos del fabricante cuyo código de fabricante es igual a 2.
+21 -- Devuelve una lista con el nombre del producto, precio y nombre de fabricante de todos los productos de la base de datos.
+22 -- Devuelve una lista con el nombre del producto, precio y nombre de fabricante de todos los productos de la base de datos. Ordene el resultado por el nombre del fabricante, por orden alfabético.
+23 -- Devuelve una lista con el código del producto, nombre del producto, código del fabricante y nombre del fabricante, de todos los productos de la base de datos.
+24 -- Devuelve el nombre del producto, su precio y el nombre de su fabricante, del producto más barato.
+25 -- Devuelve el nombre del producto, su precio y el nombre de su fabricante, del producto más caro.
+26 -- Devuelve una lista de todos los productos del fabricante Lenovo.
+27 -- Devuelve una lista de todos los productos del fabricante Crucial que tengan un precio mayor que 200 €.
+28 -- Devuelve un listado con todos los productos de los fabricantes Asus, Hewlett-Packardy Seagate. Sin utilizar el operador IN.
+29 -- Devuelve un listado con todos los productos de los fabricantes Asus, Hewlett-Packardy Seagate. Utilizando el operador IN.
+30 -- Devuelve un listado con el nombre y precio de todos los productos de los fabricantes cuyo nombre acabe por la vocal e.
+31 -- Devuelve un listado con el nombre y el precio de todos los productos cuyo nombre de fabricante contenga el carácter w en su nombre.
+32 -- Devuelve un listado con el nombre de producto, precio y nombre de fabricante, de todos los productos que tengan un precio mayor o igual a 180 €. Ordene el resultado en primer lugar por el precio (en orden descendente) y en segundo lugar por el nombre (en orden ascendente)
+33 -- Devuelve un listado con el código y el nombre de fabricante, sólo de aquellos fabricantes que tienen productos asociados en la base de datos.
+34 -- Devuelve un listado de todos los fabricantes que existen en la base de datos, junto con los productos que tiene cada uno de ellos. El listado deberá mostrar también a aquellos fabricantes que no tienen productos asociados.
+35 -- Devuelve un listado en el que sólo aparezcan aquellos fabricantes que no tienen ningún producto asociado.
+36 -- Devuelve todos los productos del fabricante Lenovo. (Sin utilizar INNER JOIN).
+37 -- Devuelve todos los datos de los productos que tienen el mismo precio que el producto más caro del fabricante Lenovo. (Sin utilizar INNER JOIN).
+38 -- Lista el nombre del producto más caro del fabricante Lenovo.
+39 -- Lista el nombre del producto más barato del fabricante Hewlett-Packard.
+40 -- Devuelve todos los productos de la base de datos que tienen un precio mayor o igual al producto más caro del fabricante Lenovo.
+41 -- Lista todos los productos del fabricante Asus que tienen un precio superior al precio medio de todos sus productos.
